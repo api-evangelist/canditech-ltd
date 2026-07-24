@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.canditech.io/trust-center/
+note: >-
+  Canditech publishes no public OpenAPI/Swagger, so cross-cutting API-standard
+  conformance cannot be derived from a spec. The entries below capture the
+  security/compliance standards the provider explicitly claims on its Trust Center.
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: Trust Center states ISO/IEC 27001:2013 certified ISMS.
+- id: gdpr
+  conforms: true
+  evidence: Trust Center states GDPR compliance with a Data Processing Agreement.
+- id: pci-dss
+  conforms: partial
+  evidence: Payment data handled by a third-party PCI-DSS certified processor; no card data stored internally.
+- id: tls-1.3
+  conforms: true
+  evidence: TLS 1.3 (minimum TLS 1.2) for data in transit.
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI or OAuth documentation; enterprise API uses issued API keys.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public error schema published.

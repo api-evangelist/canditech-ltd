@@ -1,9 +1,31 @@
 aid: canditech-ltd
 name: Canditech Ltd.
-description: Canditech Ltd. is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Canditech is a skills-assessment and job-simulation platform that helps hiring
+  teams evaluate candidates' technical and soft skills before interviewing. The
+  product generates role-specific skill assessments with AI, offers a library of
+  500+ expert-made tests, and runs job simulations, video interviews, cognitive
+  and personality tests, and pre-screening chatbots, backed by anti-cheating
+  controls (ChatGPT detection, copy-paste and tab tracking, device and location
+  monitoring). Canditech is API-first and integrates with 40+ applicant tracking
+  systems (Greenhouse, Lever, Workable, Ashby, SmartRecruiters, Workday, SAP
+  SuccessFactors and more), plus WhatsApp, SMS, and Google Sheets. A private
+  Enterprise API is available to partners and enterprise customers on request.
+  Backed by Insight Partners. This profile is maintained in the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/canditech-ltd/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://site-assets.canditech.io/wp-content/uploads/2023/08/ogimage.jpeg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Recruiting
+- Hiring
+- Skills Assessment
+- Talent Assessment
+- Pre-Employment Testing
+- Job Simulation
+- HR Technology
+- ATS Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.canditech.io/
+- type: Documentation
+  url: https://helpcenter.canditech.io/en/
+- type: Support
+  url: https://helpcenter.canditech.io/en/
+- type: Integrations
+  url: https://www.canditech.io/integrations/
+- type: Pricing
+  url: https://www.canditech.io/pricing/
+- type: Blog
+  url: https://www.canditech.io/blog/
+- type: Login
+  url: https://system.canditech.io/
+- type: TermsOfService
+  url: https://system.canditech.io/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://system.canditech.io/privacy-policy
+- type: TrustCenter
+  url: https://www.canditech.io/trust-center/
+- type: Compliance
+  url: https://www.canditech.io/trust-center/
+- type: LLMsTxt
+  url: llms/canditech-ltd-llms.txt
+- type: Conformance
+  url: conformance/canditech-ltd-conformance.yml
+- type: DomainSecurity
+  url: security/canditech-ltd-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

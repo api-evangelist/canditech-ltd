@@ -1,0 +1,29 @@
+# Canditech
+
+> Canditech is a skills-assessment and job-simulation platform for hiring teams. It lets employers evaluate candidates' technical and soft skills through customizable assessments, job simulations, video interviews, and cognitive/personality tests before interviewing — with AI-generated role-specific tests, a 500+ test library, and anti-cheating controls. Canditech is API-first and integrates with 40+ applicant tracking systems (ATS).
+
+## About
+- Company: Canditech Ltd.
+- Website: https://www.canditech.io/
+- Product: AI-powered skills assessment, job simulations, and pre-screening for recruitment.
+- Security & compliance: ISO/IEC 27001:2013, GDPR (DPA available), AWS-hosted (EU), AES-256 at rest, TLS 1.3 in transit, annual penetration testing.
+
+## APIs
+- Enterprise API (private): available to Enterprise customers and partners on request via support@canditech.io. Exposes three core capabilities — list available assessments, send an assessment to candidates, and review candidate results. No public OpenAPI/Swagger is published.
+
+## Integrations
+- ATS integrations (40+): https://www.canditech.io/integrations/ — including Greenhouse, Lever, Workable, Ashby, SmartRecruiters, JazzHR, Jobvite, Teamtailor, BambooHR, HiBob, Recruitee, iCIMS, Workday, SAP SuccessFactors, Comeet, Pinpoint.
+- Other: WhatsApp, SMS, Google Sheets.
+
+## Docs
+- Help Center: https://helpcenter.canditech.io/en/
+- ATS Integrations overview: https://helpcenter.canditech.io/en/articles/6502064-general-overview-ats-integrations
+- Test Library: https://www.canditech.io/test-library/
+- Trust Center: https://www.canditech.io/trust-center/
+
+## Commercial
+- Pricing: https://www.canditech.io/pricing/
+- Get a demo: https://www.canditech.io/get-a-demo/
+- Blog: https://www.canditech.io/blog/
+- Terms & Conditions: https://system.canditech.io/terms-and-conditions
+- Privacy Policy: https://system.canditech.io/privacy-policy
